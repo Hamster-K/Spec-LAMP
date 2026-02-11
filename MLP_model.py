@@ -7,3 +7,4 @@ def baseline_model():
     model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['binary_accuracy'])
     return model
 
+
